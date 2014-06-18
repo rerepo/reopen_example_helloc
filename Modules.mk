@@ -1,6 +1,6 @@
-include $(BUILD_MAIN)
+#include $(BUILD_MAIN)
 
-#LOCAL_PATH := `pwd`
+LOCAL_PATH := $(call my-dir)
 
 LOCAL_MODULE := helloc
 
