@@ -1,6 +1,7 @@
-#include $(BUILD_MAIN)
-
 LOCAL_PATH := $(call my-dir)
+
+###################### helloc ######################
+include $(CLEAR_VARS)
 
 LOCAL_MODULE := helloc
 
