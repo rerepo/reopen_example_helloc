@@ -14,6 +14,14 @@
 int func(void) {
 	puts("!!!cccc!!!");
 
+#ifdef APPEND
+	puts("APPEND="APPEND);
+#endif
+
+#ifdef NUMBER
+	printf("NUMBER=%d\n", NUMBER);
+#endif
+
 	puts("!!!func!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
