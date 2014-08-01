@@ -11,5 +11,7 @@ LOCAL_SRC_FILES :=
 LOCAL_SRC_FILES += main.c
 LOCAL_SRC_FILES += func.c
 
+LOCAL_C_PREPROC_FLAG := true
+
 include $(BUILD_EXECUTABLE)
 
